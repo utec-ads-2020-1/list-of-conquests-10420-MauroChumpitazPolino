@@ -3,10 +3,6 @@
 #include <iostream>
 using namespace std;
 
-bool compareFunction (const pair<string, int> a, const pair<string, int> b){
-    return a<b;
-}
-
 int main (){
 
     map <string, int> InputList;
